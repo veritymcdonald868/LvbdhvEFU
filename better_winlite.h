@@ -6,7 +6,6 @@
 #define WIN32_LEAN_AND_MEAN
 
 #define NOWINRES
-#define NOSERVICE
 #define NOMCX
 #define NOIME
 #define NOCRYPT
@@ -17,7 +16,6 @@
 #include <windows.h>
 
 #undef PostMessage
-#undef CreateEvent
 #undef PlaySound
 #undef SetCursor
 #undef ProgressBox
@@ -31,7 +29,6 @@
 #undef ShellExecuteEx
 #undef GetCurrentTime
 #undef GetTickCount
-#undef GetCurrentDirectory
 #undef GetObject
 #undef LoadCursorFromFile
 #undef GetCharABCWidths
